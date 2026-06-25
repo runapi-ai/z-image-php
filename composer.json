@@ -1,0 +1,49 @@
+{
+  "name": "runapi-ai/z-image",
+  "description": "RunAPI Z-Image Composer package for PHP applications",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "RunAPI",
+      "email": "contact@runapi.ai"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "runapi-ai/core": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RunApi\\ZImage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RunApi\\ZImage\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "0.1.x-dev"
+    }
+  },
+  "minimum-stability": "stable",
+  "homepage": "https://runapi.ai/models/z-image",
+  "support": {
+    "source": "https://github.com/runapi-ai/z-image-php",
+    "docs": "https://runapi.ai/docs#sdk-z-image",
+    "issues": "https://github.com/runapi-ai/z-image-php/issues"
+  },
+  "keywords": [
+    "runapi",
+    "runapi-ai",
+    "php",
+    "composer",
+    "sdk",
+    "api",
+    "packagist",
+    "z-image",
+    "z-image-api"
+  ]
+}
